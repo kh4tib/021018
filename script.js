@@ -6,10 +6,10 @@
 // const container = document.querySelector('.main-content');
 
 // ovalOne.addEventListener('click', () => {
-//     container.classList.add('oval-one-two');
+//     ovalTwo.classList.add('oval-two');
 // });
 
-document.getElementsByClassName("banana")[0].addEventListener('click', myFunction);
+document.getElementsByClassName("js-oval-one")[0].addEventListener('click', myFunction);
 
 function myFunction() {
     document.getElementsByClassName("js-oval-two")[0].classList.toggle('oval-two');

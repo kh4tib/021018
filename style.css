@@ -4,11 +4,15 @@
     padding: 0;
 }
 
-html,
+html {
+    background-color: #161616;
+    width: 100%;
+    height: 100%;
+}
+
 body {
     width: 100%;
     height: 100%;
-    /* background-color: #161616; */
 }
 
 /* Main Section Styles */
@@ -20,10 +24,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #161616;
-    z-index: -6;
+    /* background-color: #161616; */
 }
 
+.js-oval-one {
+    z-index: 999;
+}
 .main-content {
     width: 4rem;
     height: 4rem;
