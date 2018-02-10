@@ -36,10 +36,12 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    transition: 300ms ease-in-out;
 }
 
 .oval-one {
     background-color: tomato;
+    z-index: 5;
 }
 
 .oval-two {
